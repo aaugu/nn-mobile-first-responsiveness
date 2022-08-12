@@ -90,3 +90,9 @@ h1, h2 {
 	height: 100%;
 	margin-bottom: 5vh;
 }
+
+@media(min-width: 1200px) {
+  .content-container {
+    width: 60%;
+  }
+}
