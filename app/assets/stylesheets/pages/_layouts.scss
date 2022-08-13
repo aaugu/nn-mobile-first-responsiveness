@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
 	box-sizing: border-box;
 }
 
@@ -63,7 +61,7 @@ h1, h2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 7vh;
+	margin-bottom: 5vh;
 
 	h1 {
 		margin: 0;
@@ -85,6 +83,26 @@ h1, h2 {
 	width: 80%;
 	height: 100%;
 	margin-bottom: 5vh;
+}
+
+@media(max-width: 992px) {
+  .xs-hidden {
+    display: none;
+  }
+
+  .lg-hidden {
+    display: block;
+  }
+}
+
+@media(min-width: 993px) {
+  .xs-hidden {
+    display: block;
+  }
+
+  .lg-hidden {
+    display: none;
+  }
 }
 
 @media(min-width: 1400px) {

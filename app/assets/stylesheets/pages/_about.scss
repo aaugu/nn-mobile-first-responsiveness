@@ -6,24 +6,25 @@
   height: 250px;
   width: 250px;
   object-fit: fill;
-  margin: 5vh 3vw 0vh 3vw;
+  margin: 0 3vw 0 3vw;
 }
 
-@media(max-width: 992px) {
-  .xs-hidden {
-    display: none;
-  }
-  .lg-hidden {
-    display: block;
-  }
+.about-conclusion {
+  margin: 0 auto;
 }
 
-@media(min-width: 993px) {
-  .xs-hidden {
-    display: block;
+.about-text {
+  padding-bottom: 4vh;
+  padding-top: 3vh;
+}
+
+@media(min-width: 992px) {
+  .about-conclusion {
+    width: 80%;
   }
 
-  .lg-hidden {
-    display: none;
+  .about-text {
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
