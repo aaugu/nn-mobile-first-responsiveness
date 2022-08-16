@@ -1,4 +1,4 @@
-.contact-button {
+#contact-button {
   font-size: 2.5vh;
 
   a {
@@ -9,29 +9,9 @@
     margin: 0 auto;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
     text-shadow: none;
-
-    &:hover {
-      font-weight: bold;
-    }
-
   }
 
   .bold {
     font-weight: 600;
-  }
-}
-
-.phone-button {
-  color: $blue;
-  border-radius: 20px;
-  padding: 8px 18px;
-  background-color: $light-gray;
-
-  .fa-phone {
-    font-size: larger;
-  }
-
-  a:hover {
-    font-weight: bolder;
   }
 }

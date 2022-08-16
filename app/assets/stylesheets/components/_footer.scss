@@ -38,7 +38,7 @@
   div img {
     height: 10vh;
     object-fit: contain;
-    margin: 0 2vh;
+    margin: 0 2vw;
   }
 }
 
@@ -55,5 +55,15 @@
   p {
     font-size: 10px;
     font-family: Helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-logo {
+    div img {
+      height: 8vh;
+      object-fit: contain;
+      margin: 0 2vw;
+    }
   }
 }
